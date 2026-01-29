@@ -9,6 +9,7 @@ import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { Bar, ComponentSize, Margin } from '../types'
 
 // A "extends" B means A inherits the properties and methods from B.
+// Finished homework
 interface CategoricalBar extends Bar {
     category: string
 }
@@ -139,4 +140,6 @@ onBeforeUnmount(() => {
     height: 100%;
 }
 </style>
+
+
 
